@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/409/192/original/abstract-geometric-banner-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 40px;
+}
+
+/* ZENTRIERTER TITEL */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* ZENTRIERTE LINIE */
+.line {
+    width: 120px;
+    height: 3px;
+    background: white;
+    margin: 0 auto 20px auto;
+}
+
+/* ZENTRIERTE BLÖCKE */
+.block {
+    width: 600px;
+    background: rgba(255,255,255,0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    margin: 20px auto 0 auto;
+}
+
+.number {
+    color: #888;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Portfolio</h1>
+<div class="line"></div>
+
+<!-- Block 1 -->
+<div class="block">
+
+    <div class="number">Persönliche Informationen</div>
+    <div class="title"></div>
+
+    1. Name:<br>
+    <input type="text">
+
+    2. Stadt & Adresse:<br>
+    <input type="text">
+
+    3. Mail:<br>
+    <input type="text">
+
+    4. Telefonnummer:<br>
+    <input type="text">
+
+</div>
+
+<!-- Block 2 -->
+<div class="block">
+
+    <div class="number">Eigenschaften & Hobbys</div>
+    <div class="title"></div>
+
+    <br>
+    <textarea placeholder=""></textarea>
+
+</div>
+
+</body>
+</html>

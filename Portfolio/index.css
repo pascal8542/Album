@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://img.magnific.com/vektoren-premium/weisser-hintergrund-mit-farbverlauf-abstraktes-modernes-design_343694-3077.jpg");
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: -1;
+}
